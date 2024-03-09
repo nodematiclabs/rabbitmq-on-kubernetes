@@ -1,0 +1,1916 @@
+mouseWheel:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+elementDraw:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+snapSettings:
+  constraints: 16
+serializationSettings:
+  preventDefaults: true
+contextMenuSettings:
+  show: true
+  items:
+    - text: Edit
+      id: edit
+      target: .e-elementcontent
+      iconCss: fa fa-cogs
+    - text: Callout To
+      id: callout
+      target: .e-elementcontent
+      iconCss: fa fa-crosshairs
+    - text: Increase font size ↑
+      id: increaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Decrease font size ↓
+      id: decreaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Fill
+      id: fill
+      target: .e-elementcontent
+      iconCss: fa fa-tint
+    - text: Highlight
+      id: highlight
+      target: .e-elementcontent
+      iconCss: fa fa-lightbulb-o
+    - text: Collapse to square
+      id: collapseToSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to named square
+      id: collapseToNamedSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to circle
+      id: collapseToCircle
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Expand
+      id: expand
+      target: .e-elementcontent
+      iconCss: fa fa-expand
+    - text: Bring to front
+      id: front
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-up
+    - text: Bring forward
+      id: forward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-up
+    - text: Send backward
+      id: backward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-down
+    - text: Send to back
+      id: back
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-down
+    - text: Remove
+      id: remove
+      target: .e-elementcontent
+      iconCss: fa fa-times
+  showCustomMenuOnly: true
+tool: 5
+scrollSettings:
+  scrollLimit: Infinity
+  viewPortWidth: 930
+  viewPortHeight: 606
+  horizontalOffset: -260
+  verticalOffset: -148
+addInfo:
+  tasks:
+    - name: Example
+      id: example
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#732fd3"
+      dates:
+        - 2024-03-09T18:31:51.758Z
+        - 2024-03-09T18:31:51.758Z
+      datesEnabled: false
+      subtaskLevelProgress: false
+      inFlow: false
+      subtasks:
+        - name: Subtask 1
+          progress: 0
+    - name: Confirm repositories
+      id: confirm-repositories
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#732fd3"
+      dates:
+        - 2024-03-09T19:17:10.594Z
+        - 2024-03-09T19:17:10.594Z
+      datesEnabled: false
+      subtaskLevelProgress: false
+      inFlow: true
+      subtasks:
+        - name: Subtask 1
+          progress: 0
+    - name: Establish MVP resourcing
+      id: establish-mvp-resourcing
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#732fd3"
+      dates:
+        - 2024-03-09T19:17:10.594Z
+        - 2024-03-09T19:17:10.594Z
+      datesEnabled: false
+      subtaskLevelProgress: false
+      inFlow: true
+      subtasks:
+        - name: Subtask 1
+          progress: 0
+    - name: GenAI recap and upskilling
+      id: genai-recap-and-upskilling
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#732fd3"
+      dates:
+        - 2024-03-09T19:17:10.594Z
+        - 2024-03-09T19:17:10.594Z
+      datesEnabled: false
+      subtaskLevelProgress: false
+      inFlow: true
+      subtasks:
+        - name: Subtask 1
+          progress: 0
+    - name: Establish success criteria
+      id: establish-success-criteria
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#732fd3"
+      dates:
+        - 2024-03-09T19:17:10.594Z
+        - 2024-03-09T19:17:10.594Z
+      datesEnabled: false
+      subtaskLevelProgress: false
+      inFlow: true
+      subtasks:
+        - name: Subtask 1
+          progress: 0
+    - name: Get repository data in GCP
+      id: get-repository-data-in-gcp
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#732fd3"
+      dates:
+        - 2024-03-09T19:17:10.594Z
+        - 2024-03-09T19:17:10.594Z
+      datesEnabled: false
+      subtaskLevelProgress: false
+      inFlow: true
+      subtasks:
+        - name: Subtask 1
+          progress: 0
+    - name: Finalize MVP scaffolding
+      id: finalize-mvp-scaffolding
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#732fd3"
+      dates:
+        - 2024-03-09T19:17:10.594Z
+        - 2024-03-09T19:17:10.594Z
+      datesEnabled: false
+      subtaskLevelProgress: false
+      inFlow: true
+      subtasks:
+        - name: Subtask 1
+          progress: 0
+    - name: Complete MVP
+      id: complete-mvp
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#732fd3"
+      dates:
+        - 2024-03-09T19:17:10.594Z
+        - 2024-03-09T19:17:10.594Z
+      datesEnabled: false
+      subtaskLevelProgress: false
+      inFlow: true
+      subtasks:
+        - name: Subtask 1
+          progress: 0
+    - name: Go/no-go decision
+      id: go/no-go-decision
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#732fd3"
+      dates:
+        - 2024-03-09T19:17:10.594Z
+        - 2024-03-09T19:17:10.594Z
+      datesEnabled: false
+      subtaskLevelProgress: false
+      inFlow: true
+      subtasks:
+        - name: Subtask 1
+          progress: 0
+    - name: Additional MVP iterations
+      id: additional-mvp-iterations
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#732fd3"
+      dates:
+        - 2024-03-09T19:17:10.594Z
+        - 2024-03-09T19:17:10.594Z
+      datesEnabled: false
+      subtaskLevelProgress: false
+      inFlow: true
+      subtasks:
+        - name: Subtask 1
+          progress: 0
+    - name: Implement changes
+      id: implement-changes
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#732fd3"
+      dates:
+        - 2024-03-09T19:17:10.594Z
+        - 2024-03-09T19:17:10.594Z
+      datesEnabled: false
+      subtaskLevelProgress: false
+      inFlow: true
+      subtasks:
+        - name: Subtask 1
+          progress: 0
+    - name: Analyze and measure impact
+      id: analyze-and-measure-impact
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#732fd3"
+      dates:
+        - 2024-03-09T19:17:10.594Z
+        - 2024-03-09T19:17:10.594Z
+      datesEnabled: false
+      subtaskLevelProgress: false
+      inFlow: true
+      subtasks:
+        - name: Subtask 1
+          progress: 0
+  currencyText: USD ($)
+  currencySymbol: $
+  selectedViewType: 0
+  name: RabbitMQ Intro
+  author: Nodematic
+  description: null
+  objectives: []
+  experiments: []
+  experimentCols:
+    - field: name
+      header: Name
+height: 606
+connectors:
+  - id: Straight ConnectorkTi67
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 434
+      y: 273
+    targetPoint:
+      x: 434
+      y: 307
+    sourceID: RabbitMQGUssr
+    targetID: Custom Resource DefinitionK0792
+    addInfo:
+      viewConnector: 0
+    zIndex: 4
+  - id: Straight Connectorsqupo
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 434
+      y: 407
+    targetPoint:
+      x: 434
+      y: 441
+    sourceID: Custom Resource DefinitionK0792
+    targetID: Google Kubernetes EnginekNfog
+    addInfo:
+      viewConnector: 0
+    zIndex: 5
+  - id: Dashed Orthogonal ConnectorL9Gn0
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    constraints: 470654
+    sourcePoint:
+      x: 304.5
+      y: 118
+    targetPoint:
+      x: 434
+      y: 173
+    sourceID: DeploymentdioAL
+    targetID: RabbitMQGUssr
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 7
+  - id: Dashed Orthogonal Connectorfdfen
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    constraints: 470654
+    sourcePoint:
+      x: 893
+      y: 353
+    targetPoint:
+      x: 815
+      y: 403
+    sourceID: Cluster Role Binding-wfs6k
+    targetID: Service Account-zcbao
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 17
+  - id: Dashed Orthogonal Connectorsi3KD
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    constraints: 470654
+    sourcePoint:
+      x: 893
+      y: 491
+    targetPoint:
+      x: 815
+      y: 403
+    sourceID: Role Binding-j2bjh
+    targetID: Service Account-zcbao
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 18
+  - id: Dashed Orthogonal ConnectorW7K8q
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    constraints: 470654
+    sourcePoint:
+      x: 1232
+      y: 253
+    targetPoint:
+      x: 1193
+      y: 353
+    sourceID: Cluster Role-f4c0v
+    targetID: Cluster Role Binding-wfs6k
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 19
+  - id: Dashed Orthogonal Connectorm5m2p
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    constraints: 470654
+    sourcePoint:
+      x: 1232
+      y: 375
+    targetPoint:
+      x: 1193
+      y: 353
+    sourceID: Cluster Role-kzd16
+    targetID: Cluster Role Binding-wfs6k
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 20
+  - id: Dashed Orthogonal ConnectorZQpQn
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    constraints: 470654
+    sourcePoint:
+      x: 1236
+      y: 507
+    targetPoint:
+      x: 1193
+      y: 491
+    sourceID: Role-vvor
+    targetID: Role Binding-j2bjh
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 21
+  - id: Dashed Orthogonal ConnectorCOBJe
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    constraints: 470654
+    sourcePoint:
+      x: 745
+      y: 341
+    targetPoint:
+      x: 853
+      y: 282
+    sourceID: Service Account-zcbao
+    targetID: Deployment-qpzud
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 22
+  - id: Straight ConnectorDWcDb
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 853
+      y: 128
+    targetPoint:
+      x: 853
+      y: 182
+    sourceID: Custom Resource Definition-tna83k
+    targetID: Deployment-qpzud
+    addInfo:
+      viewConnector: 0
+    zIndex: 23
+  - id: Straight ConnectorA4CSH
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 146
+      y: 101.76
+    targetPoint:
+      x: 101
+      y: 111.35
+    sourceID: DeploymentdioAL
+    targetID: Cloud StorageO2WuL
+    addInfo:
+      viewConnector: 0
+    zIndex: 25
+  - id: Dashed Orthogonal ConnectorA4dS2
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    constraints: 470654
+    sourcePoint:
+      x: 284
+      y: 223
+    targetPoint:
+      x: 91
+      y: 259
+    sourceID: RabbitMQGUssr
+    targetID: DeploymentpGFgZ
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 27
+  - id: Straight ConnectorwpoT2
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 1.22
+      y: 184
+    targetPoint:
+      x: -18.85
+      y: 209
+    sourceID: Cloud StorageO2WuL
+    targetID: DeploymentpGFgZ
+    addInfo:
+      viewConnector: 0
+    zIndex: 28
+  - id: Straight Bidirectional ConnectorEZ9WP
+    sourceDecorator:
+      shape: OpenArrow
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 138
+      y: -7
+    targetPoint:
+      x: 193.5
+      y: 18
+    sourceID: UsersgyUN4
+    targetID: DeploymentdioAL
+    addInfo:
+      viewConnector: 0
+    zIndex: 30
+  - id: Orthogonal ConnectorlaATe
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    constraints: 470654
+    sourcePoint:
+      x: -59
+      y: 209
+    targetPoint:
+      x: 27
+      y: -7
+    sourceID: DeploymentpGFgZ
+    targetID: UsersgyUN4
+    segments:
+      - type: Orthogonal
+        length: 167
+        direction: Top
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 31
+nodes:
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #A4430E;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1659643028/sds_logos/RabbitMQ_Black_87_pisskk.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1659643028/sds_logos/RabbitMQ_bb2ikd.png);"></div><div
+        class="c-text"><div class="c-title">RabbitMQ</div><div
+        class="c-short-description">Asynchronous messaging and communication
+        between distributed systems</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div
+        class="c-title-bottom">RabbitMQ</div></div></div></div></div>'
+    id: RabbitMQGUssr
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: RabbitMQ
+        shortDescription: Asynchronous messaging and communication between distributed systems
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: RabbitMQ
+      status: N/A
+      size: sm
+      nodeType: html
+      title: RabbitMQ
+      editableName: RabbitMQ
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Message Queue
+          type: Processor
+          portsIn:
+            job: message
+          portsOut:
+            job: message
+          serviceTime:
+            exp:
+              lambda: AverageQueueTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Message Queue
+          AverageQueueTime: 1
+      name: RabbitMQ
+      category: 9
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1659643028/sds_logos/RabbitMQ_bb2ikd.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1659643029/sds_logos/RabbitMQ__0484848_zsoboz.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1659643028/sds_logos/RabbitMQ_Black_87_pisskk.png
+      color: "#A4430E"
+      controlText: RabbitMQ
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 434
+    offsetY: 223
+    zIndex: 1
+    inEdges:
+      - Dashed Orthogonal ConnectorL9Gn0
+    outEdges:
+      - Straight ConnectorkTi67
+      - Dashed Orthogonal ConnectorA4dS2
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #416bdd;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300492/sds_logos/Kubernetes/Transparent/crd_Black_87_bdru1i.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300492/sds_logos/Kubernetes/Transparent/crd_f4brlx.png);"></div><div
+        class="c-text"><div class="c-title">Operator (CRD)</div><div
+        class="c-short-description">Operator for running RabbitMQ on
+        Kubernetes</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div
+        class="c-title-bottom">Kubernetes</div></div></div></div></div>'
+    id: Custom Resource DefinitionK0792
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Custom Resource Definition
+        shortDescription: Operator for running RabbitMQ on Kubernetes
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Custom Resource Definition
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Custom Resource Definition
+      editableName: Operator (CRD)
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Custom Resource Definition
+      category: 6
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300492/sds_logos/Kubernetes/Transparent/crd_f4brlx.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300492/sds_logos/Kubernetes/Transparent/crd__044448_g31m0q.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300492/sds_logos/Kubernetes/Transparent/crd_Black_87_bdru1i.png
+      color: "#416bdd"
+      controlText: Custom Resource Definition
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 434
+    offsetY: 357
+    zIndex: 2
+    inEdges:
+      - Straight ConnectorkTi67
+    outEdges:
+      - Straight Connectorsqupo
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/google_kubernetes_engine_Black_87_lho249.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/google_kubernetes_engine_l2vvbq.png);"></div><div
+        class="c-text"><div class="c-title">Google Kubernetes Engine</div><div
+        class="c-short-description">Running and managing containerized
+        applications across multiple machines</div><div class="c-bottom"><div
+        class="c-hr p-mb-1"></div><div class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: Google Kubernetes EnginekNfog
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Google Kubernetes Engine
+        shortDescription: Running and managing containerized applications across
+          multiple machines
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Google Kubernetes Engine
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Google Kubernetes Engine
+      editableName: Google Kubernetes Engine
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Google Kubernetes Engine
+      category: 4
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/google_kubernetes_engine_l2vvbq.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/google_kubernetes_engine__044448_l7kry7.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/google_kubernetes_engine_Black_87_lho249.png
+      color: "#3871e0"
+      controlText: Google Kubernetes Engine
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 434
+    offsetY: 491
+    zIndex: 3
+    inEdges:
+      - Straight Connectorsqupo
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #416bdd;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300494/sds_logos/Kubernetes/Transparent/deploy_Black_87_ysojs1.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300494/sds_logos/Kubernetes/Transparent/deploy_lpyf1t.png);"></div><div
+        class="c-text"><div class="c-title">API (Ingests/Processes
+        Photos)</div><div class="c-short-description">Using the RabbitMQ system
+        (i.e., applications, services,...)</div><div class="c-bottom"><div
+        class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Kubernetes</div></div></div></div></div>'
+    id: DeploymentdioAL
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Deployment
+        shortDescription: Using the RabbitMQ system (i.e., applications, services,...)
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Deployment
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Deployment
+      editableName: API (Ingests/Processes Photos)
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Deployment
+      category: 6
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300494/sds_logos/Kubernetes/Transparent/deploy_lpyf1t.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300495/sds_logos/Kubernetes/Transparent/deploy__044448_pqowd7.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300494/sds_logos/Kubernetes/Transparent/deploy_Black_87_ysojs1.png
+      color: "#416bdd"
+      controlText: Deployment
+      selectedDynamicsView: 0
+    width: 317.00000000000006
+    height: 100
+    offsetX: 304.5
+    offsetY: 68
+    zIndex: 6
+    inEdges:
+      - Straight Bidirectional ConnectorEZ9WP
+    outEdges:
+      - Dashed Orthogonal ConnectorL9Gn0
+      - Straight ConnectorA4CSH
+  - id: Custom Resource Definition-tna83k
+    shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #416bdd;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300492/sds_logos/Kubernetes/Transparent/crd_Black_87_bdru1i.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300492/sds_logos/Kubernetes/Transparent/crd_f4brlx.png);"></div><div
+        class="c-text"><div
+        class="c-title">rabbitmqclusters.rabbitmq.com</div><div
+        class="c-short-description">Custom Resource Definition</div><div
+        class="c-bottom"><div class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Kubernetes</div></div></div></div></div>'
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Custom Resource Definition
+        shortDescription: Custom Resource Definition
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Custom Resource Definition
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Custom Resource Definition
+      editableName: rabbitmqclusters.rabbitmq.com
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Custom Resource Definition
+      category: 6
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300492/sds_logos/Kubernetes/Transparent/crd_f4brlx.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300492/sds_logos/Kubernetes/Transparent/crd__044448_g31m0q.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300492/sds_logos/Kubernetes/Transparent/crd_Black_87_bdru1i.png
+      color: "#416bdd"
+      controlText: Custom Resource Definition
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 853
+    offsetY: 78
+    zIndex: 9
+    outEdges:
+      - Straight ConnectorDWcDb
+  - id: Service Account-zcbao
+    shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #416bdd; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300527/sds_logos/Kubernetes/Transparent/sa_Black-87_vxdqs3.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300526/sds_logos/Kubernetes/Transparent/sa_cnpkvc.png);
+        border-radius: 10px"></div></div><div class="c-undername"><div>Service
+        Account</div></div><hr class="c-underrule" style="background-color:
+        #416bdd"></div>'
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Service Account
+        shortDescription: Service Account
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Service Account
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Service Account
+      editableName: Service Account
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Service Account
+      category: 6
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300526/sds_logos/Kubernetes/Transparent/sa_cnpkvc.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300526/sds_logos/Kubernetes/Transparent/sa__044448_xn2jwn.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300527/sds_logos/Kubernetes/Transparent/sa_Black-87_vxdqs3.png
+      color: "#416bdd"
+      controlText: Service Account
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+    width: 139.99999999999997
+    height: 124
+    offsetX: 745
+    offsetY: 403
+    zIndex: 10
+    inEdges:
+      - Dashed Orthogonal Connectorfdfen
+      - Dashed Orthogonal Connectorsi3KD
+    outEdges:
+      - Dashed Orthogonal ConnectorCOBJe
+  - id: Role-vvor
+    shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #416bdd;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300526/sds_logos/Kubernetes/Transparent/role_Black_87_jxajbj.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300524/sds_logos/Kubernetes/Transparent/role_mqsj41.png);"></div><div
+        class="c-text"><div
+        class="c-title">rabbitmq-cluster-leader-election-role</div><div
+        class="c-short-description">Role</div><div class="c-bottom"><div
+        class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Kubernetes</div></div></div></div></div>'
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Role
+        shortDescription: Role
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Role
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Role
+      editableName: rabbitmq-cluster-leader-election-role
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Role
+      category: 6
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300524/sds_logos/Kubernetes/Transparent/role_mqsj41.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300525/sds_logos/Kubernetes/Transparent/role__044448_uwtmob.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300526/sds_logos/Kubernetes/Transparent/role_Black_87_jxajbj.png
+      color: "#416bdd"
+      controlText: Role
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 1386
+    offsetY: 507
+    zIndex: 11
+    outEdges:
+      - Dashed Orthogonal ConnectorZQpQn
+  - id: Cluster Role-kzd16
+    shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #416bdd;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300493/sds_logos/Kubernetes/Transparent/c-role_Black_87_yvioix.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300493/sds_logos/Kubernetes/Transparent/c-role_p9pzcs.png);"></div><div
+        class="c-text"><div
+        class="c-title">rabbitmq-cluster-operator-role</div><div
+        class="c-short-description">Cluster Role</div><div class="c-bottom"><div
+        class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Kubernetes</div></div></div></div></div>'
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Cluster Role
+        shortDescription: Cluster Role
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Cluster Role
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Cluster Role
+      editableName: rabbitmq-cluster-operator-role
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Cluster Role
+      category: 6
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300493/sds_logos/Kubernetes/Transparent/c-role_p9pzcs.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300493/sds_logos/Kubernetes/Transparent/c-role__044448_vmxo6g.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300493/sds_logos/Kubernetes/Transparent/c-role_Black_87_yvioix.png
+      color: "#416bdd"
+      controlText: Cluster Role
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 1382
+    offsetY: 375
+    zIndex: 12
+    outEdges:
+      - Dashed Orthogonal Connectorm5m2p
+  - id: Cluster Role-f4c0v
+    shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #416bdd;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300493/sds_logos/Kubernetes/Transparent/c-role_Black_87_yvioix.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300493/sds_logos/Kubernetes/Transparent/c-role_p9pzcs.png);"></div><div
+        class="c-text"><div
+        class="c-title">rabbitmq-cluster-service-binding-role</div><div
+        class="c-short-description">Cluster Role</div><div class="c-bottom"><div
+        class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Kubernetes</div></div></div></div></div>'
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Cluster Role
+        shortDescription: Cluster Role
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Cluster Role
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Cluster Role
+      editableName: rabbitmq-cluster-service-binding-role
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Cluster Role
+      category: 6
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300493/sds_logos/Kubernetes/Transparent/c-role_p9pzcs.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300493/sds_logos/Kubernetes/Transparent/c-role__044448_vmxo6g.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300493/sds_logos/Kubernetes/Transparent/c-role_Black_87_yvioix.png
+      color: "#416bdd"
+      controlText: Cluster Role
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 1382
+    offsetY: 253
+    zIndex: 13
+    outEdges:
+      - Dashed Orthogonal ConnectorW7K8q
+  - id: Role Binding-j2bjh
+    shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #416bdd;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300524/sds_logos/Kubernetes/Transparent/rb_Black_87_q9y6r8.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300524/sds_logos/Kubernetes/Transparent/rb_w3ocly.png);"></div><div
+        class="c-text"><div
+        class="c-title">rabbitmq-cluster-leader-election-rolebinding</div><div
+        class="c-short-description">Role Binding</div><div class="c-bottom"><div
+        class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Kubernetes</div></div></div></div></div>'
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Role Binding
+        shortDescription: Role Binding
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Role Binding
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Role Binding
+      editableName: rabbitmq-cluster-leader-election-rolebinding
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Role Binding
+      category: 6
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300524/sds_logos/Kubernetes/Transparent/rb_w3ocly.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300525/sds_logos/Kubernetes/Transparent/rb__044448_dhrgs3.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300524/sds_logos/Kubernetes/Transparent/rb_Black_87_q9y6r8.png
+      color: "#416bdd"
+      controlText: Role Binding
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 1043
+    offsetY: 491
+    zIndex: 14
+    inEdges:
+      - Dashed Orthogonal ConnectorZQpQn
+    outEdges:
+      - Dashed Orthogonal Connectorsi3KD
+  - id: Cluster Role Binding-wfs6k
+    shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #416bdd;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300492/sds_logos/Kubernetes/Transparent/crb_Black_87_dxjnz1.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300491/sds_logos/Kubernetes/Transparent/crb_xsguiq.png);"></div><div
+        class="c-text"><div
+        class="c-title">rabbitmq-cluster-operator-rolebinding</div><div
+        class="c-short-description">Cluster Role Binding</div><div
+        class="c-bottom"><div class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Kubernetes</div></div></div></div></div>'
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Cluster Role Binding
+        shortDescription: Cluster Role Binding
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Cluster Role Binding
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Cluster Role Binding
+      editableName: rabbitmq-cluster-operator-rolebinding
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Cluster Role Binding
+      category: 6
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300491/sds_logos/Kubernetes/Transparent/crb_xsguiq.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300492/sds_logos/Kubernetes/Transparent/crd__044448_g31m0q.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300492/sds_logos/Kubernetes/Transparent/crb_Black_87_dxjnz1.png
+      color: "#416bdd"
+      controlText: Cluster Role Binding
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 1043
+    offsetY: 353
+    zIndex: 15
+    inEdges:
+      - Dashed Orthogonal ConnectorW7K8q
+      - Dashed Orthogonal Connectorm5m2p
+    outEdges:
+      - Dashed Orthogonal Connectorfdfen
+  - id: Deployment-qpzud
+    shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #416bdd;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300494/sds_logos/Kubernetes/Transparent/deploy_Black_87_ysojs1.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300494/sds_logos/Kubernetes/Transparent/deploy_lpyf1t.png);"></div><div
+        class="c-text"><div class="c-title">rabbitmq-cluster-operator</div><div
+        class="c-short-description">Deployment</div><div class="c-bottom"><div
+        class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Kubernetes</div></div></div></div></div>'
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Deployment
+        shortDescription: Deployment
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Deployment
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Deployment
+      editableName: rabbitmq-cluster-operator
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Deployment
+      category: 6
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300494/sds_logos/Kubernetes/Transparent/deploy_lpyf1t.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300495/sds_logos/Kubernetes/Transparent/deploy__044448_pqowd7.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300494/sds_logos/Kubernetes/Transparent/deploy_Black_87_ysojs1.png
+      color: "#416bdd"
+      controlText: Deployment
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 853
+    offsetY: 232
+    zIndex: 16
+    inEdges:
+      - Dashed Orthogonal ConnectorCOBJe
+      - Straight ConnectorDWcDb
+  - shape:
+      type: HTML
+      content: >2-
+        
+              <div class="h-full w-full">
+                <div class="h-full w-full relative">
+                  <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" style="overflow: visible; opacity: 1;">
+                    <rect x="0" y="0" width="100%" height="100%" rx="10" ry="10" fill="none" stroke="#2A2A2A" stroke-width="2" stroke-dasharray="4 4"></rect>
+                  </svg>
+                </div>
+                <div class="model-group bg-center bg-no-repeat bg-contain top-0 right-0 bottom-0 left-0 opacity-30 absolute" style="background-image: url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300499/sds_logos/Kubernetes/Transparent/ns_Black_87_d1wl0x.png)">
+                </div>
+              </div>
+    id: Branded Logical GroupBUVO1
+    width: 908.0000000000001
+    height: 546
+    previewSize:
+      width: 320
+      height: 120
+    offsetX: 1086
+    offsetY: 291
+    annotations:
+      - id: KqTTS
+        content: RabbitMQ Operator Namespace
+        offset:
+          x: 0
+          y: 0
+        horizontalAlignment: Left
+        verticalAlignment: Bottom
+        style:
+          fill: white
+          fontSize: 14
+          bold: true
+          color: 2A2A2A
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+      status: N/A
+      type: annotation
+      brand: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300499/sds_logos/Kubernetes/Transparent/ns_Black_87_d1wl0x.png
+      size: lg
+    zIndex: 0
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_storage_Black_87_qiifqy.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_storage_donk5b.png);
+        border-radius: 10px"></div></div><div
+        class="c-undername"><div>GCS</div></div><hr class="c-underrule"
+        style="background-color: #3871e0"></div>'
+    id: Cloud StorageO2WuL
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Cloud Storage
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Cloud Storage
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Cloud Storage
+      editableName: GCS
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Object Storage
+          type: Storage
+          portsIn:
+            put: write
+            get: read
+          portsOut:
+            stored: data
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Object Storage
+      name: Cloud Storage
+      category: 4
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_storage_donk5b.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_storage__044448_vsadzn.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_storage_Black_87_qiifqy.png
+      color: "#3871e0"
+      controlText: Cloud Storage
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+    width: 100
+    height: 124
+    offsetX: 51
+    offsetY: 122
+    zIndex: 24
+    inEdges:
+      - Straight ConnectorA4CSH
+    outEdges:
+      - Straight ConnectorwpoT2
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #416bdd;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300494/sds_logos/Kubernetes/Transparent/deploy_Black_87_ysojs1.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300494/sds_logos/Kubernetes/Transparent/deploy_lpyf1t.png);"></div><div
+        class="c-text"><div class="c-title">Worker (Runs ML on Photos)</div><div
+        class="c-short-description">Long-running tasks</div><div
+        class="c-bottom"><div class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Kubernetes</div></div></div></div></div>'
+    id: DeploymentpGFgZ
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Deployment
+        shortDescription: Long-running tasks
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Deployment
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Deployment
+      editableName: Worker (Runs ML on Photos)
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Deployment
+      category: 6
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300494/sds_logos/Kubernetes/Transparent/deploy_lpyf1t.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300495/sds_logos/Kubernetes/Transparent/deploy__044448_pqowd7.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300494/sds_logos/Kubernetes/Transparent/deploy_Black_87_ysojs1.png
+      color: "#416bdd"
+      controlText: Deployment
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: -59
+    offsetY: 259
+    zIndex: 26
+    inEdges:
+      - Dashed Orthogonal ConnectorA4dS2
+      - Straight ConnectorwpoT2
+    outEdges:
+      - Orthogonal ConnectorlaATe
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #616161;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/Users_Black_87_nsu596.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/Users__616161_e24kgx.png);"></div><div
+        class="c-text"><div class="c-title">Users</div><div
+        class="c-short-description">Users submitting photos who want their
+        photos AI edited</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div
+        class="c-title-bottom">Users</div></div></div></div></div>'
+    id: UsersgyUN4
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Users
+        shortDescription: Users submitting photos who want their photos AI edited
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Users
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Users
+      editableName: Users
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Work Item Generator
+          type: Generator
+          portsIn: {}
+          portsOut:
+            job: work item
+          messageInterdepartureTime:
+            exp:
+              lambda: AverageTimeBetweenWorkItemCreations
+        - name: Request Generator
+          type: Generator
+          portsIn: {}
+          portsOut:
+            job: request
+          messageInterdepartureTime:
+            exp:
+              lambda: AverageTimeBetweenRequests
+        - name: Response Receiver
+          type: Storage
+          portsIn:
+            put: response
+            get: latest
+          portsOut:
+            stored: response
+        - name: Deployer
+          type: Processor
+          portsIn:
+            job: deployable
+          portsOut:
+            job: deployed
+          serviceTime:
+            exp:
+              lambda: AverageDeploymentDuration
+      dynamicsViews:
+        - type: Generator
+          status: Idle
+          name: Work Item Generator
+          AverageTimeBetweenWorkItemCreations: 1
+        - type: Generator
+          status: Idle
+          name: Request Generator
+          AverageTimeBetweenRequests: 1
+        - type: Storage
+          status: Idle
+          name: Response Receiver
+        - type: Processor
+          status: Idle
+          name: Deployer
+          AverageDeploymentDuration: 1
+      name: Users
+      category: 5
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/Users__616161_e24kgx.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/Users_Black_ij2426.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/Users_Black_87_nsu596.png
+      color: "#616161"
+      controlText: Users
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 27
+    offsetY: -57
+    zIndex: 29
+    inEdges:
+      - Orthogonal ConnectorlaATe
+    outEdges:
+      - Straight Bidirectional ConnectorEZ9WP
+  - shape:
+      type: Path
+    id: TextxtPX1
+    width: 121.00000000000001
+    height: 50
+    style:
+      fill: none
+      strokeWidth: 2
+      strokeColor: "#2A2A2A"
+    annotations:
+      - id: hqiK2
+        content: RabbitMQ Publisher
+        style:
+          fill: none
+          fontSize: 14
+          bold: true
+          color: "#2A2A2A"
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+      status: N/A
+      type: text
+      size: sm
+    offsetX: 395
+    offsetY: -7
+    zIndex: 32
+  - shape:
+      type: Path
+    id: TextlFq8t
+    width: 121
+    height: 50
+    style:
+      fill: none
+      strokeWidth: 2
+      strokeColor: "#2A2A2A"
+    annotations:
+      - id: hqiK2
+        content: RabbitMQ Subscriber
+        style:
+          fill: none
+          fontSize: 14
+          bold: true
+          color: "#2A2A2A"
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+      status: N/A
+      type: text
+      size: sm
+    offsetX: 28.5
+    offsetY: 334
+    zIndex: 33
+  - shape:
+      type: Path
+    id: TextneNCX
+    width: 110.00000000000001
+    height: 50
+    style:
+      fill: none
+      strokeWidth: 2
+      strokeColor: "#2A2A2A"
+    annotations:
+      - id: hqiK2
+        content: DECOUPLED the process and improved scalability/reliability
+        style:
+          fill: none
+          fontSize: 14
+          bold: true
+          color: "#2A2A2A"
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+      status: N/A
+      type: text
+      size: sm
+    offsetX: 192.5
+    offsetY: 175
+    zIndex: 34
+selectedItems:
+  width: 0
+  height: 0
